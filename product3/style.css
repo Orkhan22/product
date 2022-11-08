@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#product {
+  width: 100%;
+  height: auto;
+}
+#product .container {
+  width: 1300;
+  height: auto;
+  display: flex;
+  margin: 20px 50px 20px 50px;
+  background-color: rgba(170, 153, 153, 0.275);
+}
+#product .left {
+  height: 784px;
+  width: 677px;
+}
+#product .right {
+  height: 784px;
+  width: 401px;
+  padding-top: 120px;
+  padding-left: 100px;
+  text-align: center;
+}
+#product .right h2 {
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+#product .right p {
+  padding-top: 20px;
+  padding-bottom: 70px;
+  padding-left: 50px;
+  opacity: 0.6;
+}
+#product .right h6 {
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+#product .right span1 {
+  opacity: 0.6;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+#product .right span2 {
+  padding-bottom: 30px;
+  color: green;
+  font-weight: bold;
+}
+#product .right .colors {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  left: 940px;
+  padding-top: 20px;
+  padding-left: 25px;
+}
+#product .right .colors .green {
+  width: 15px;
+  height: 15px;
+  border-radius: 30px;
+  background-color: green;
+}
+#product .right .colors .blue {
+  width: 15px;
+  height: 15px;
+  border-radius: 30px;
+  background-color: rgb(0, 20, 241);
+}
+#product .right .colors .orange {
+  width: 15px;
+  height: 15px;
+  border-radius: 30px;
+  background-color: rgb(255, 208, 0);
+}
+#product .right .colors .black {
+  width: 15px;
+  height: 15px;
+  border-radius: 30px;
+  background-color: rgb(0, 0, 0);
+}
+
+#footer {
+  height: 111px;
+  width: 1066px;
+}
+#footer .foot {
+  display: flex;
+  gap: 120px;
+  padding-left: 70px;
+}/*# sourceMappingURL=style.css.map */

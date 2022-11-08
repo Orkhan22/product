@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+#product {
+  width: 100%;
+  height: auto;
+  
+
+  .container {
+    width: 1300;
+    height: auto;
+    display: flex;
+    margin: 20px 50px 20px 50px;
+    background-color: rgba(170, 153, 153, 0.275);
+  }
+
+  .left {
+    height: 784px;
+    width: 677px;
+    
+  }
+
+  .right {
+    height: 784px;
+    width: 401px;
+    padding-top: 120px;
+    padding-left: 100px;
+
+    text-align: center;
+
+    h2 {
+      font-weight: bold;
+      padding-bottom: 30px;
+      padding-left: 50px;
+    }
+
+    p {
+        padding-top: 20px;
+      padding-bottom: 70px;
+      padding-left: 50px;
+
+      opacity: 0.6;
+    }
+    h6 {
+      font-weight: bold;
+      padding-bottom: 30px;
+      padding-top: 40px;
+      padding-left: 50px;
+    }
+    span1 {
+      opacity: 0.6;
+      padding-bottom: 30px;
+      padding-left: 50px;
+    }
+    span2 {
+        padding-bottom: 30px;
+      color: green;
+      font-weight: bold;
+      
+    }
+
+    .colors {
+      display: flex;
+      gap: 5px;
+      position: absolute;
+      left: 940px;
+      padding-top: 20px;
+      padding-left: 25px;
+
+      .green {
+        width: 15px;
+        height: 15px;
+        border-radius: 30px;
+        background-color: green;
+      }
+      .blue {
+        width: 15px;
+        height: 15px;
+        border-radius: 30px;
+        background-color: rgb(0, 20, 241);
+      }
+      .orange {
+        width: 15px;
+        height: 15px;
+        border-radius: 30px;
+        background-color: rgb(255, 208, 0);
+      }
+      .black {
+        width: 15px;
+        height: 15px;
+        border-radius: 30px;
+        background-color: rgb(0, 0, 0);
+      }
+    }
+    
+  }
+
+}
+#footer{
+
+    height: 111px;
+width: 1066px;
+
+
+    .foot{
+        display: flex;
+        gap: 120px;
+        padding-left: 70px;
+
+
+
+    }
+
+
+}
+// #footer{
+//     height: 111px;
+//     width: 1066px;
+//     left: 187px;
+//     top: 862px;
+//     border-radius: 0px;
+    
+//     .bottom{
+//         display: inline;
+    
+
+//     }
+
+//     .part1{
+//         width: 533px;
+//         height: 111px;
+
+//     }
+//     .part2{
+//         width: 533px;
+//         height: 111px;
+//     }
+
+
+
+// }
